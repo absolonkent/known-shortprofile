@@ -1,6 +1,6 @@
 # Known-Shortprofile Plugin
 
-This is a plugin for use with [Known](http://withknown.com) to clean up the profile page URLs. This is a formed verson of the original plugin designed by egoexpress, located at https://github.com/egoexpress/known-shortprofle.git ShortProfile
+This is a plugin for use with [Known](http://withknown.com) to clean up the profile page URLs. This is a forked verson of the original ShortProfile plugin designed by egoexpress, located at https://github.com/egoexpress/known-shortprofile. 
 
 ## What does this plugin do?
 
