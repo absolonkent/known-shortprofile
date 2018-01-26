@@ -6,11 +6,11 @@ This is a plugin for use with [Known](http://withknown.com) to clean up the prof
 
 With the standard Known installation, URLs entered in your profile use the full text leaving the profile page to look something like this:
 
-![Without Plugin](https://egoexpress.github.io/known-shortprofile/images/without-plugin.png)
+![Without Plugin](http://absolonkent.net/github/images/long_profile.png)
 
 This plugin shortens the URLs, displaying the respective website usernames (if applicable) and adds a distinctive icon based upon the service using Font Awesome. After activating the plugin, the profile shown above would look like this:
 
-![With Plugin](https://egoexpress.github.io/known-shortprofile/images/with-plugin.png)
+![With Plugin](http://absolonkent.net/github/images/short_profile.png)
 
 
 ## How do you set it up?
