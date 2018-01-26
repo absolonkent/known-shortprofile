@@ -1,25 +1,22 @@
-# known-shortprofile
+# Known-Shortprofile Plugin
 
-A [Known](http://withknown.com) plugin to clean up the URLs displayed in the profile page. 
+This is a plugin for use with [Known](http://withknown.com) to clean up the profile page URLs. This is a formed verson of the original plugin designed by egoexpress, located at https://github.com/egoexpress/known-shortprofle.git ShortProfile
 
-## What does it do?
+## What does this plugin do?
 
-When you setup Known, enter some URLs in your profile and then have a look at your profile page it somehow looks like this:
+With the standard Known installation, URLs entered in your profile use the full text leaving the profile page to look something like this:
 
 ![Without Plugin](https://egoexpress.github.io/known-shortprofile/images/without-plugin.png)
 
-Wow, all those long URLs kinda mess up the overview. Here's where this plugin comes in. It shortens the URLs down to the respective 
-usernames (if applicable) and even adds some more icons for the different profiles.
-So, after activating the plugin the profile shown above looks like this:
+This plugin shortens the URLs, displaying the respective website usernames (if applicable) and adds a distinctive icon based upon the service using Font Awesome. After activating the plugin, the profile shown above would look like this:
 
 ![With Plugin](https://egoexpress.github.io/known-shortprofile/images/with-plugin.png)
 
-Neat, huh?
 
-## Looks awesome, how do I set it up?
+## How do you set it up?
 
-Easy. Just switch to the _IdnoPlugins_ directory of your Known installation and checkout this repo:
+To install this fork of the plugin. switch to the _IdnoPlugins_ directory of your Known installation and checkout this repo:
 
-    git clone https://github.com/egoexpress/known-shortprofle.git ShortProfile
+    git clone https://github.com/abolonkent/known-shortprofle.git ShortProfile
     
-Afterwards, activate the plugin and off you go.
+Afterwards, activate the plugin.
