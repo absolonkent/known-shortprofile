@@ -162,6 +162,9 @@
                     case 'venmo.com':         
                         $icon = 'fas fa-dollar-sign'; 
                         break;
+                    case 'calendly.com':
+                        $icon = 'fas fa-calendar-plus';
+                        break;
                     
                     default:                    
                         $icon = 'fa fa-link'; 
