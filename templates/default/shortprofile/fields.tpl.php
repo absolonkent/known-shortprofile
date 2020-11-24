@@ -241,7 +241,8 @@
 
 ?>
         <p class="url-container">
-            <i class="<?=$icon?>"></i> <a href="<?=htmlspecialchars($url)?>" rel="me" class="<?=$h_card; ?>"><?=str_replace('http://','',str_replace('https://','', strip_tags($url_display)))?></a>
+          <i class="fa <?=$icon?> fa-fw" aria-hidden="true"></i>
+          <a href="<?=htmlspecialchars($url)?>" rel="me" class="<?=$h_card; ?>"><?=str_replace('http://','',str_replace('https://','', strip_tags($url_display)))?></a>
         </p>
 <?php
             }
