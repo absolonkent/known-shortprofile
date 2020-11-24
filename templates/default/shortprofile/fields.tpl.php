@@ -198,6 +198,16 @@
                     case 'blipfoto.com':
                         $icon = 'far fa-photo';
                         break;
+                   case 'scorestream.com':
+                        $icon = 'fa fa-futbol-o';
+                        break;
+                     case 'vero.co':
+                        $icon = 'fas fa-keyboard';
+                        break;
+                    case (preg_match('/.*libib\.com/', $host) ? true : false):
+                        $icon = 'fab fa-book';
+                        $url_filtered = str_replace('.libib.com','',$url_display);
+                        break;     
                     default:
                         $icon = 'fas fa-link';
                         $url_filtered = $url_display;
